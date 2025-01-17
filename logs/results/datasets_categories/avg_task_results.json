@@ -1,0 +1,645 @@
+{
+    "real_world": {
+        "regression": {
+            "chi_squared": {
+                "mean_selected_features": 50.357142857142854,
+                "mean_model_scores_ranking": 6.428571428571429,
+                "mean_execution_time_minutes": 0.00716080523672558,
+                "datasets_evaluated": 14
+            },
+            "mutual_info": {
+                "mean_selected_features": 32.92857142857143,
+                "mean_model_scores_ranking": 9.428571428571429,
+                "mean_execution_time_minutes": 0.007952091523579188,
+                "datasets_evaluated": 14
+            },
+            "mrmr": {
+                "mean_selected_features": 7.5,
+                "mean_model_scores_ranking": 13.785714285714286,
+                "mean_execution_time_minutes": 0.03556705599739438,
+                "datasets_evaluated": 14
+            },
+            "fcbf": {
+                "mean_selected_features": 3.4285714285714284,
+                "mean_model_scores_ranking": 14.142857142857142,
+                "mean_execution_time_minutes": 0.016266493286405292,
+                "datasets_evaluated": 14
+            },
+            "relief": {
+                "mean_selected_features": 22.857142857142858,
+                "mean_model_scores_ranking": 15.357142857142858,
+                "mean_execution_time_minutes": 2.9310843972932727,
+                "datasets_evaluated": 14
+            },
+            "rf_fimportances": {
+                "mean_selected_features": 12.714285714285714,
+                "mean_model_scores_ranking": 8.714285714285714,
+                "mean_execution_time_minutes": 0.01897942821184794,
+                "datasets_evaluated": 14
+            },
+            "cb_fimportances": {
+                "mean_selected_features": 10.214285714285714,
+                "mean_model_scores_ranking": 7.928571428571429,
+                "mean_execution_time_minutes": 0.08198283172789074,
+                "datasets_evaluated": 14
+            },
+            "permutation_importance": {
+                "mean_selected_features": 9.571428571428571,
+                "mean_model_scores_ranking": 7.857142857142857,
+                "mean_execution_time_minutes": 4.021261808418092,
+                "datasets_evaluated": 14
+            },
+            "shap": {
+                "mean_selected_features": 12.214285714285714,
+                "mean_model_scores_ranking": 6.0,
+                "mean_execution_time_minutes": 0.460538041023981,
+                "datasets_evaluated": 14
+            },
+            "boruta": {
+                "mean_selected_features": 21.5,
+                "mean_model_scores_ranking": 5.714285714285714,
+                "mean_execution_time_minutes": 12.004831157128017,
+                "datasets_evaluated": 14
+            },
+            "seq_backward": {
+                "mean_selected_features": 11.6,
+                "mean_model_scores_ranking": 5.0,
+                "mean_execution_time_minutes": 4.474953700701396,
+                "datasets_evaluated": 10
+            },
+            "seq_forward": {
+                "mean_selected_features": 6.8,
+                "mean_model_scores_ranking": 7.8,
+                "mean_execution_time_minutes": 5.122106374502182,
+                "datasets_evaluated": 10
+            },
+            "seq_forward_floating": {
+                "mean_selected_features": 6.4,
+                "mean_model_scores_ranking": 7.2,
+                "mean_execution_time_minutes": 6.292761968374252,
+                "datasets_evaluated": 10
+            },
+            "hybrid_nmi_sfs": {
+                "mean_selected_features": 9.571428571428571,
+                "mean_model_scores_ranking": 7.142857142857143,
+                "mean_execution_time_minutes": 67.06531681304885,
+                "datasets_evaluated": 14
+            },
+            "hybrid_fcbf_sfs": {
+                "mean_selected_features": 3.7857142857142856,
+                "mean_model_scores_ranking": 14.142857142857142,
+                "mean_execution_time_minutes": 0.7213365109193893,
+                "datasets_evaluated": 14
+            },
+            "hybrid_shap_sfs": {
+                "mean_selected_features": 8.285714285714286,
+                "mean_model_scores_ranking": 8.142857142857142,
+                "mean_execution_time_minutes": 20.17167076525234,
+                "datasets_evaluated": 14
+            },
+            "hybrid_rfe": {
+                "mean_selected_features": 11.0,
+                "mean_model_scores_ranking": 6.642857142857143,
+                "mean_execution_time_minutes": 13.544011739322118,
+                "datasets_evaluated": 14
+            },
+            "correlation": {
+                "mean_selected_features": 33.714285714285715,
+                "mean_model_scores_ranking": 9.285714285714286,
+                "mean_execution_time_minutes": 0.007566241139457339,
+                "datasets_evaluated": 14
+            },
+            "seq_backward_floating": {
+                "mean_selected_features": 11.6,
+                "mean_model_scores_ranking": 5.0,
+                "mean_execution_time_minutes": 4.0601622521877285,
+                "datasets_evaluated": 10
+            }
+        },
+        "binary_classification": {
+            "chi_squared": {
+                "mean_selected_features": 39.142857142857146,
+                "mean_model_scores_ranking": 7.238095238095238,
+                "mean_execution_time_minutes": 0.0067674888504876025,
+                "datasets_evaluated": 21
+            },
+            "mutual_info": {
+                "mean_selected_features": 45.61904761904762,
+                "mean_model_scores_ranking": 10.285714285714286,
+                "mean_execution_time_minutes": 0.0038222498363918726,
+                "datasets_evaluated": 21
+            },
+            "mrmr": {
+                "mean_selected_features": 13.238095238095237,
+                "mean_model_scores_ranking": 15.619047619047619,
+                "mean_execution_time_minutes": 0.045298574462769525,
+                "datasets_evaluated": 21
+            },
+            "fcbf": {
+                "mean_selected_features": 4.190476190476191,
+                "mean_model_scores_ranking": 14.476190476190476,
+                "mean_execution_time_minutes": 0.02466985233246334,
+                "datasets_evaluated": 21
+            },
+            "relief": {
+                "mean_selected_features": 18.61904761904762,
+                "mean_model_scores_ranking": 16.428571428571427,
+                "mean_execution_time_minutes": 2.7149822524615694,
+                "datasets_evaluated": 21
+            },
+            "rf_fimportances": {
+                "mean_selected_features": 14.142857142857142,
+                "mean_model_scores_ranking": 8.047619047619047,
+                "mean_execution_time_minutes": 0.011177470381297763,
+                "datasets_evaluated": 21
+            },
+            "cb_fimportances": {
+                "mean_selected_features": 13.523809523809524,
+                "mean_model_scores_ranking": 6.476190476190476,
+                "mean_execution_time_minutes": 0.11041680574417115,
+                "datasets_evaluated": 21
+            },
+            "permutation_importance": {
+                "mean_selected_features": 12.476190476190476,
+                "mean_model_scores_ranking": 6.904761904761905,
+                "mean_execution_time_minutes": 2.0320344482149397,
+                "datasets_evaluated": 21
+            },
+            "shap": {
+                "mean_selected_features": 14.047619047619047,
+                "mean_model_scores_ranking": 6.0476190476190474,
+                "mean_execution_time_minutes": 0.5123198760880364,
+                "datasets_evaluated": 21
+            },
+            "boruta": {
+                "mean_selected_features": 13.0,
+                "mean_model_scores_ranking": 8.095238095238095,
+                "mean_execution_time_minutes": 16.39373724687667,
+                "datasets_evaluated": 21
+            },
+            "seq_backward": {
+                "mean_selected_features": 18.5,
+                "mean_model_scores_ranking": 6.25,
+                "mean_execution_time_minutes": 23.039525254319113,
+                "datasets_evaluated": 16
+            },
+            "seq_forward": {
+                "mean_selected_features": 6.0625,
+                "mean_model_scores_ranking": 8.3125,
+                "mean_execution_time_minutes": 10.588020989547173,
+                "datasets_evaluated": 16
+            },
+            "seq_forward_floating": {
+                "mean_selected_features": 6.0625,
+                "mean_model_scores_ranking": 8.3125,
+                "mean_execution_time_minutes": 13.2658567301929,
+                "datasets_evaluated": 16
+            },
+            "hybrid_nmi_sfs": {
+                "mean_selected_features": 6.9523809523809526,
+                "mean_model_scores_ranking": 8.428571428571429,
+                "mean_execution_time_minutes": 22.2166328539924,
+                "datasets_evaluated": 21
+            },
+            "hybrid_fcbf_sfs": {
+                "mean_selected_features": 4.095238095238095,
+                "mean_model_scores_ranking": 14.428571428571429,
+                "mean_execution_time_minutes": 2.0466173643157597,
+                "datasets_evaluated": 21
+            },
+            "hybrid_shap_sfs": {
+                "mean_selected_features": 7.333333333333333,
+                "mean_model_scores_ranking": 8.714285714285714,
+                "mean_execution_time_minutes": 19.880285640557606,
+                "datasets_evaluated": 21
+            },
+            "hybrid_rfe": {
+                "mean_selected_features": 10.238095238095237,
+                "mean_model_scores_ranking": 11.285714285714286,
+                "mean_execution_time_minutes": 17.696714581194378,
+                "datasets_evaluated": 21
+            },
+            "information_value": {
+                "mean_selected_features": 53.857142857142854,
+                "mean_model_scores_ranking": 4.904761904761905,
+                "mean_execution_time_minutes": 0.007954988403925821,
+                "datasets_evaluated": 21
+            },
+            "correlation": {
+                "mean_selected_features": 42.095238095238095,
+                "mean_model_scores_ranking": 8.904761904761905,
+                "mean_execution_time_minutes": 0.0015919289891681975,
+                "datasets_evaluated": 21
+            },
+            "seq_backward_floating": {
+                "mean_selected_features": 18.5,
+                "mean_model_scores_ranking": 6.25,
+                "mean_execution_time_minutes": 29.041133418430885,
+                "datasets_evaluated": 16
+            }
+        },
+        "multiclass_classification": {
+            "chi_squared": {
+                "mean_selected_features": 88.06666666666666,
+                "mean_model_scores_ranking": 4.0,
+                "mean_execution_time_minutes": 0.006955307324727376,
+                "datasets_evaluated": 15
+            },
+            "mutual_info": {
+                "mean_selected_features": 80.46666666666667,
+                "mean_model_scores_ranking": 5.266666666666667,
+                "mean_execution_time_minutes": 0.003428816530439589,
+                "datasets_evaluated": 15
+            },
+            "mrmr": {
+                "mean_selected_features": 56.666666666666664,
+                "mean_model_scores_ranking": 9.533333333333333,
+                "mean_execution_time_minutes": 0.4292520067426893,
+                "datasets_evaluated": 15
+            },
+            "fcbf": {
+                "mean_selected_features": 9.333333333333334,
+                "mean_model_scores_ranking": 12.266666666666667,
+                "mean_execution_time_minutes": 0.04730259471469455,
+                "datasets_evaluated": 15
+            },
+            "relief": {
+                "mean_selected_features": 38.2,
+                "mean_model_scores_ranking": 13.533333333333333,
+                "mean_execution_time_minutes": 0.19351736307144166,
+                "datasets_evaluated": 15
+            },
+            "rf_fimportances": {
+                "mean_selected_features": 14.8,
+                "mean_model_scores_ranking": 9.2,
+                "mean_execution_time_minutes": 0.01162985881169637,
+                "datasets_evaluated": 15
+            },
+            "cb_fimportances": {
+                "mean_selected_features": 12.0,
+                "mean_model_scores_ranking": 6.133333333333334,
+                "mean_execution_time_minutes": 0.04504626486036512,
+                "datasets_evaluated": 15
+            },
+            "permutation_importance": {
+                "mean_selected_features": 9.933333333333334,
+                "mean_model_scores_ranking": 8.266666666666667,
+                "mean_execution_time_minutes": 0.9930173937479655,
+                "datasets_evaluated": 15
+            },
+            "shap": {
+                "mean_selected_features": 14.533333333333333,
+                "mean_model_scores_ranking": 6.066666666666666,
+                "mean_execution_time_minutes": 0.3744290884335836,
+                "datasets_evaluated": 15
+            },
+            "boruta": {
+                "mean_selected_features": 20.4,
+                "mean_model_scores_ranking": 6.0,
+                "mean_execution_time_minutes": 5.3088376874393886,
+                "datasets_evaluated": 15
+            },
+            "seq_backward": {
+                "mean_selected_features": 8.272727272727273,
+                "mean_model_scores_ranking": 5.090909090909091,
+                "mean_execution_time_minutes": 12.678697334636341,
+                "datasets_evaluated": 11
+            },
+            "seq_forward": {
+                "mean_selected_features": 8.0,
+                "mean_model_scores_ranking": 5.636363636363637,
+                "mean_execution_time_minutes": 8.085931955323074,
+                "datasets_evaluated": 11
+            },
+            "seq_forward_floating": {
+                "mean_selected_features": 7.363636363636363,
+                "mean_model_scores_ranking": 5.181818181818182,
+                "mean_execution_time_minutes": 9.988230846506177,
+                "datasets_evaluated": 11
+            },
+            "hybrid_nmi_sfs": {
+                "mean_selected_features": 8.0,
+                "mean_model_scores_ranking": 6.866666666666666,
+                "mean_execution_time_minutes": 50.95995459953944,
+                "datasets_evaluated": 15
+            },
+            "hybrid_fcbf_sfs": {
+                "mean_selected_features": 5.533333333333333,
+                "mean_model_scores_ranking": 12.6,
+                "mean_execution_time_minutes": 5.480848185221354,
+                "datasets_evaluated": 15
+            },
+            "hybrid_shap_sfs": {
+                "mean_selected_features": 7.466666666666667,
+                "mean_model_scores_ranking": 6.6,
+                "mean_execution_time_minutes": 10.661080852614509,
+                "datasets_evaluated": 15
+            },
+            "hybrid_rfe": {
+                "mean_selected_features": 6.266666666666667,
+                "mean_model_scores_ranking": 10.333333333333334,
+                "mean_execution_time_minutes": 18.447182829909856,
+                "datasets_evaluated": 15
+            },
+            "seq_backward_floating": {
+                "mean_selected_features": 8.636363636363637,
+                "mean_model_scores_ranking": 5.090909090909091,
+                "mean_execution_time_minutes": 15.853742694854736,
+                "datasets_evaluated": 11
+            }
+        }
+    },
+    "synthetic": {
+        "regression": {
+            "chi_squared": {
+                "mean_weighted_accuracy_ranking": 11.0,
+                "mean_execution_time_minutes": 0.006232463612275965,
+                "datasets_evaluated": 17
+            },
+            "mutual_info": {
+                "mean_weighted_accuracy_ranking": 10.823529411764707,
+                "mean_execution_time_minutes": 0.00854884900298773,
+                "datasets_evaluated": 17
+            },
+            "mrmr": {
+                "mean_weighted_accuracy_ranking": 9.941176470588236,
+                "mean_execution_time_minutes": 0.048801521927702665,
+                "datasets_evaluated": 17
+            },
+            "fcbf": {
+                "mean_weighted_accuracy_ranking": 6.823529411764706,
+                "mean_execution_time_minutes": 0.013240088434780344,
+                "datasets_evaluated": 17
+            },
+            "relief": {
+                "mean_weighted_accuracy_ranking": 16.58823529411765,
+                "mean_execution_time_minutes": 1.5643104649057575,
+                "datasets_evaluated": 17
+            },
+            "rf_fimportances": {
+                "mean_weighted_accuracy_ranking": 8.941176470588236,
+                "mean_execution_time_minutes": 0.08443191215103749,
+                "datasets_evaluated": 17
+            },
+            "cb_fimportances": {
+                "mean_weighted_accuracy_ranking": 5.764705882352941,
+                "mean_execution_time_minutes": 0.024303307019028008,
+                "datasets_evaluated": 17
+            },
+            "permutation_importance": {
+                "mean_weighted_accuracy_ranking": 3.9411764705882355,
+                "mean_execution_time_minutes": 0.21710134651146681,
+                "datasets_evaluated": 17
+            },
+            "shap": {
+                "mean_weighted_accuracy_ranking": 3.823529411764706,
+                "mean_execution_time_minutes": 0.31746762546838503,
+                "datasets_evaluated": 17
+            },
+            "boruta": {
+                "mean_weighted_accuracy_ranking": 8.764705882352942,
+                "mean_execution_time_minutes": 1.9436270893788807,
+                "datasets_evaluated": 17
+            },
+            "seq_backward": {
+                "mean_weighted_accuracy_ranking": 15.818181818181818,
+                "mean_execution_time_minutes": 5.774054857456322,
+                "datasets_evaluated": 11
+            },
+            "seq_forward": {
+                "mean_weighted_accuracy_ranking": 6.636363636363637,
+                "mean_execution_time_minutes": 15.621166911630919,
+                "datasets_evaluated": 11
+            },
+            "seq_forward_floating": {
+                "mean_weighted_accuracy_ranking": 6.545454545454546,
+                "mean_execution_time_minutes": 19.577625569430264,
+                "datasets_evaluated": 11
+            },
+            "hybrid_nmi_sfs": {
+                "mean_weighted_accuracy_ranking": 4.764705882352941,
+                "mean_execution_time_minutes": 12.126672846663233,
+                "datasets_evaluated": 17
+            },
+            "hybrid_fcbf_sfs": {
+                "mean_weighted_accuracy_ranking": 3.0588235294117645,
+                "mean_execution_time_minutes": 5.626284494820763,
+                "datasets_evaluated": 17
+            },
+            "hybrid_rfe": {
+                "mean_weighted_accuracy_ranking": 6.470588235294118,
+                "mean_execution_time_minutes": 4.118404223638422,
+                "datasets_evaluated": 17
+            },
+            "correlation": {
+                "mean_weighted_accuracy_ranking": 10.117647058823529,
+                "mean_execution_time_minutes": 0.00822513407351924,
+                "datasets_evaluated": 17
+            },
+            "hybrid_shap_sfs": {
+                "mean_weighted_accuracy_ranking": 3.0,
+                "mean_execution_time_minutes": 9.638135309780345,
+                "datasets_evaluated": 17
+            },
+            "seq_backward_floating": {
+                "mean_weighted_accuracy_ranking": 15.818181818181818,
+                "mean_execution_time_minutes": 5.996639541423682,
+                "datasets_evaluated": 11
+            }
+        },
+        "binary_classification": {
+            "chi_squared": {
+                "mean_weighted_accuracy_ranking": 14.0,
+                "mean_execution_time_minutes": 0.006187936415274938,
+                "datasets_evaluated": 16
+            },
+            "mutual_info": {
+                "mean_weighted_accuracy_ranking": 13.3125,
+                "mean_execution_time_minutes": 0.007690988977750142,
+                "datasets_evaluated": 16
+            },
+            "mrmr": {
+                "mean_weighted_accuracy_ranking": 13.0625,
+                "mean_execution_time_minutes": 0.035459059725205105,
+                "datasets_evaluated": 16
+            },
+            "fcbf": {
+                "mean_weighted_accuracy_ranking": 11.1875,
+                "mean_execution_time_minutes": 0.011069323619206746,
+                "datasets_evaluated": 16
+            },
+            "relief": {
+                "mean_weighted_accuracy_ranking": 17.0625,
+                "mean_execution_time_minutes": 1.652292284121116,
+                "datasets_evaluated": 16
+            },
+            "rf_fimportances": {
+                "mean_weighted_accuracy_ranking": 12.0,
+                "mean_execution_time_minutes": 0.08301596169670424,
+                "datasets_evaluated": 16
+            },
+            "cb_fimportances": {
+                "mean_weighted_accuracy_ranking": 4.5,
+                "mean_execution_time_minutes": 0.02514013573527336,
+                "datasets_evaluated": 16
+            },
+            "permutation_importance": {
+                "mean_weighted_accuracy_ranking": 5.0,
+                "mean_execution_time_minutes": 0.26239488994081817,
+                "datasets_evaluated": 16
+            },
+            "shap": {
+                "mean_weighted_accuracy_ranking": 6.125,
+                "mean_execution_time_minutes": 0.3245763063430786,
+                "datasets_evaluated": 16
+            },
+            "boruta": {
+                "mean_weighted_accuracy_ranking": 9.9375,
+                "mean_execution_time_minutes": 2.1033605741957824,
+                "datasets_evaluated": 16
+            },
+            "seq_backward": {
+                "mean_weighted_accuracy_ranking": 4.555555555555555,
+                "mean_execution_time_minutes": 18.569400312282422,
+                "datasets_evaluated": 9
+            },
+            "seq_forward": {
+                "mean_weighted_accuracy_ranking": 1.3333333333333333,
+                "mean_execution_time_minutes": 8.371574189486328,
+                "datasets_evaluated": 9
+            },
+            "seq_forward_floating": {
+                "mean_weighted_accuracy_ranking": 1.3333333333333333,
+                "mean_execution_time_minutes": 9.661581708766796,
+                "datasets_evaluated": 9
+            },
+            "hybrid_nmi_sfs": {
+                "mean_weighted_accuracy_ranking": 3.25,
+                "mean_execution_time_minutes": 13.49853992263476,
+                "datasets_evaluated": 16
+            },
+            "hybrid_fcbf_sfs": {
+                "mean_weighted_accuracy_ranking": 2.875,
+                "mean_execution_time_minutes": 5.771655928591887,
+                "datasets_evaluated": 16
+            },
+            "hybrid_shap_sfs": {
+                "mean_weighted_accuracy_ranking": 2.125,
+                "mean_execution_time_minutes": 11.474719573309024,
+                "datasets_evaluated": 16
+            },
+            "hybrid_rfe": {
+                "mean_weighted_accuracy_ranking": 6.3125,
+                "mean_execution_time_minutes": 4.139404313017924,
+                "datasets_evaluated": 16
+            },
+            "information_value": {
+                "mean_weighted_accuracy_ranking": 13.75,
+                "mean_execution_time_minutes": 0.006531292200088501,
+                "datasets_evaluated": 16
+            },
+            "correlation": {
+                "mean_weighted_accuracy_ranking": 12.0625,
+                "mean_execution_time_minutes": 0.0029349759221076964,
+                "datasets_evaluated": 16
+            },
+            "seq_backward_floating": {
+                "mean_weighted_accuracy_ranking": 3.6666666666666665,
+                "mean_execution_time_minutes": 30.362658426938236,
+                "datasets_evaluated": 9
+            }
+        },
+        "multiclass_classification": {
+            "chi_squared": {
+                "mean_weighted_accuracy_ranking": 12.352941176470589,
+                "mean_execution_time_minutes": 0.0049919095693850045,
+                "datasets_evaluated": 17
+            },
+            "mutual_info": {
+                "mean_weighted_accuracy_ranking": 11.823529411764707,
+                "mean_execution_time_minutes": 0.003856992721557617,
+                "datasets_evaluated": 17
+            },
+            "mrmr": {
+                "mean_weighted_accuracy_ranking": 10.294117647058824,
+                "mean_execution_time_minutes": 0.021844845425848868,
+                "datasets_evaluated": 17
+            },
+            "fcbf": {
+                "mean_weighted_accuracy_ranking": 6.411764705882353,
+                "mean_execution_time_minutes": 0.010663784718980976,
+                "datasets_evaluated": 17
+            },
+            "relief": {
+                "mean_weighted_accuracy_ranking": 15.058823529411764,
+                "mean_execution_time_minutes": 0.8109481400134516,
+                "datasets_evaluated": 17
+            },
+            "rf_fimportances": {
+                "mean_weighted_accuracy_ranking": 10.823529411764707,
+                "mean_execution_time_minutes": 0.052992932001749676,
+                "datasets_evaluated": 17
+            },
+            "cb_fimportances": {
+                "mean_weighted_accuracy_ranking": 4.823529411764706,
+                "mean_execution_time_minutes": 0.035554930976792874,
+                "datasets_evaluated": 17
+            },
+            "permutation_importance": {
+                "mean_weighted_accuracy_ranking": 5.529411764705882,
+                "mean_execution_time_minutes": 0.2676507162112816,
+                "datasets_evaluated": 17
+            },
+            "shap": {
+                "mean_weighted_accuracy_ranking": 9.235294117647058,
+                "mean_execution_time_minutes": 0.3447504454968022,
+                "datasets_evaluated": 17
+            },
+            "boruta": {
+                "mean_weighted_accuracy_ranking": 8.0,
+                "mean_execution_time_minutes": 2.824313661631416,
+                "datasets_evaluated": 17
+            },
+            "hybrid_nmi_sfs": {
+                "mean_weighted_accuracy_ranking": 2.8823529411764706,
+                "mean_execution_time_minutes": 15.465976332449447,
+                "datasets_evaluated": 17
+            },
+            "hybrid_fcbf_sfs": {
+                "mean_weighted_accuracy_ranking": 2.176470588235294,
+                "mean_execution_time_minutes": 6.78117003440857,
+                "datasets_evaluated": 17
+            },
+            "hybrid_shap_sfs": {
+                "mean_weighted_accuracy_ranking": 2.8823529411764706,
+                "mean_execution_time_minutes": 9.757868528599833,
+                "datasets_evaluated": 17
+            },
+            "hybrid_rfe": {
+                "mean_weighted_accuracy_ranking": 4.647058823529412,
+                "mean_execution_time_minutes": 4.317980729131137,
+                "datasets_evaluated": 17
+            },
+            "seq_backward": {
+                "mean_weighted_accuracy_ranking": 10.0,
+                "mean_execution_time_minutes": 23.37084116254534,
+                "datasets_evaluated": 14
+            },
+            "seq_forward": {
+                "mean_weighted_accuracy_ranking": 3.357142857142857,
+                "mean_execution_time_minutes": 19.75453910827637,
+                "datasets_evaluated": 14
+            },
+            "seq_forward_floating": {
+                "mean_weighted_accuracy_ranking": 3.0714285714285716,
+                "mean_execution_time_minutes": 22.57999724603835,
+                "datasets_evaluated": 14
+            },
+            "seq_backward_floating": {
+                "mean_weighted_accuracy_ranking": 10.214285714285714,
+                "mean_execution_time_minutes": 22.56152618981543,
+                "datasets_evaluated": 14
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "dataset_counts": {
+    "total_datasets": 50,
+    "dimensionality": {
+      "high_dimensional": 13,
+      "mid_dimensional": 20,
+      "low_dimensional": 17
+    },
+    "variable_types": {
+      "primarily_categorical": 11,
+      "primarily_numerical": 18,
+      "mixed_type": 21
+    },
+    "tasks": {
+      "regression": 14,
+      "binary_classification": 21,
+      "multiclass_classification": 15
+    },
+    "balance_status": {
+      "balanced": 26,
+      "imbalanced": 10
+    }
+  },
+  "averages": {
+    "avg_samples": 24325.14,
+    "avg_variables": 72.2,
+    "avg_categorical_vars": 25.18,
+    "avg_numerical_vars": 47.02
+  }
+}

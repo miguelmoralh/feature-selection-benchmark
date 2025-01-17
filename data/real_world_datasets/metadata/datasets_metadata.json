@@ -1,0 +1,652 @@
+{
+  "breast-cancer-wisconsin-data": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 31,
+      "n_samples": 569,
+      "n_features": 31
+    }
+  },
+  "ailerons": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 40,
+      "n_samples": 13750,
+      "n_features": 40
+    }
+  },
+  "amazon_employee_access": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 9,
+      "n_numerical_vars": 0,
+      "n_samples": 32769,
+      "n_features": 9
+    }
+  },
+  "diamonds": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 3,
+      "n_numerical_vars": 6,
+      "n_samples": 53940,
+      "n_features": 9
+    }
+  },
+  "phpYLeydd": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 5,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 32,
+      "n_samples": 9873,
+      "n_features": 32
+    }
+  },
+  "indian_pines": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 8,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 220,
+      "n_samples": 9144,
+      "n_features": 220
+    }
+  },
+  "WEC_Perth_49": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 148,
+      "n_samples": 36043,
+      "n_features": 148
+    }
+  },
+  "phpV5QYya": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 30,
+      "n_numerical_vars": 0,
+      "n_samples": 11055,
+      "n_features": 30
+    }
+  },
+  "weatherAUS": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 6,
+      "n_numerical_vars": 16,
+      "n_samples": 145460,
+      "n_features": 22
+    }
+  },
+  "allbp": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "multiclass_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 3,
+      "n_categorical_vars": 23,
+      "n_numerical_vars": 6,
+      "n_samples": 3772,
+      "n_features": 29
+    }
+  },
+  "car-evaluation": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "multiclass_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 4,
+      "n_categorical_vars": 21,
+      "n_numerical_vars": 0,
+      "n_samples": 1728,
+      "n_features": 21
+    }
+  },
+  "dataset_23_cmc": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 3,
+      "n_categorical_vars": 7,
+      "n_numerical_vars": 2,
+      "n_samples": 1473,
+      "n_features": 9
+    }
+  },
+  "data": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 95,
+      "n_samples": 6819,
+      "n_features": 95
+    }
+  },
+  "dataset_2183_cpu_act": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 21,
+      "n_samples": 8192,
+      "n_features": 21
+    }
+  },
+  "Invistico_Airline": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 3,
+      "n_numerical_vars": 18,
+      "n_samples": 129880,
+      "n_features": 21
+    }
+  },
+  "dna": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 3,
+      "n_categorical_vars": 180,
+      "n_numerical_vars": 0,
+      "n_samples": 3186,
+      "n_features": 180
+    }
+  },
+  "ObesityDataSet_raw_and_data_sinthetic": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 7,
+      "n_categorical_vars": 8,
+      "n_numerical_vars": 8,
+      "n_samples": 2111,
+      "n_features": 16
+    }
+  },
+  "insurance": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 3,
+      "n_numerical_vars": 3,
+      "n_samples": 1338,
+      "n_features": 6
+    }
+  },
+  "dataset_2204_house_8L": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 8,
+      "n_samples": 22784,
+      "n_features": 8
+    }
+  },
+  "jungle_chess_2pcs_raw_endgame_complete": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 3,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 6,
+      "n_samples": 44819,
+      "n_features": 6
+    }
+  },
+  "dataset_2175_kin8nm": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 8,
+      "n_samples": 8192,
+      "n_features": 8
+    }
+  },
+  "php7zhUPY": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 18,
+      "n_categorical_vars": 3,
+      "n_numerical_vars": 3,
+      "n_samples": 28056,
+      "n_features": 6
+    }
+  },
+  "dataset_20_mfeat-pixel": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 10,
+      "n_categorical_vars": 240,
+      "n_numerical_vars": 0,
+      "n_samples": 2000,
+      "n_features": 240
+    }
+  },
+  "ozone_level": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 72,
+      "n_numerical_vars": 0,
+      "n_samples": 2536,
+      "n_features": 72
+    }
+  },
+  "seismic-bumps": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 4,
+      "n_numerical_vars": 14,
+      "n_samples": 2584,
+      "n_features": 18
+    }
+  },
+  "dataset": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 17,
+      "n_numerical_vars": 3,
+      "n_samples": 7043,
+      "n_features": 20
+    }
+  },
+  "php2PPvrr": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 5,
+      "n_categorical_vars": 20,
+      "n_numerical_vars": 6,
+      "n_samples": 2800,
+      "n_features": 26
+    }
+  },
+  "topo_2_1": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 266,
+      "n_samples": 8885,
+      "n_features": 266
+    }
+  },
+  "php0iVrYT": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 4,
+      "n_samples": 748,
+      "n_features": 4
+    }
+  },
+  "dataset_50_tic-tac-toe": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 9,
+      "n_numerical_vars": 0,
+      "n_samples": 958,
+      "n_features": 9
+    }
+  },
+  "php8Mz7BG": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 5,
+      "n_samples": 5404,
+      "n_features": 5
+    }
+  },
+  "data_alzheimer": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 1,
+      "n_numerical_vars": 450,
+      "n_samples": 174,
+      "n_features": 451
+    }
+  },
+  "phpDYCOet": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 29,
+      "n_numerical_vars": 89,
+      "n_samples": 34465,
+      "n_features": 118
+    }
+  },
+  "php88ZB4Q": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 6,
+      "n_categorical_vars": 0,
+      "n_numerical_vars": 561,
+      "n_samples": 10299,
+      "n_features": 561
+    }
+  },
+  "phpeZQVCe": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 1,
+      "n_numerical_vars": 126,
+      "n_samples": 1994,
+      "n_features": 127
+    }
+  },
+  "ds_salaries": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 7,
+      "n_numerical_vars": 3,
+      "n_samples": 3755,
+      "n_features": 10
+    }
+  },
+  "dataset_customer": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 4,
+      "n_numerical_vars": 9,
+      "n_samples": 1723,
+      "n_features": 13
+    }
+  },
+  "cerebral_stroke": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 5,
+      "n_numerical_vars": 6,
+      "n_samples": 43400,
+      "n_features": 11
+    }
+  },
+  "Credit": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 4,
+      "n_numerical_vars": 4,
+      "n_samples": 4521,
+      "n_features": 8
+    }
+  },
+  "dataset_claim": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 110,
+      "n_numerical_vars": 14,
+      "n_samples": 188318,
+      "n_features": 124
+    }
+  },
+  "irish": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 3,
+      "n_numerical_vars": 2,
+      "n_samples": 500,
+      "n_features": 5
+    }
+  },
+  "phpnYQXoc": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 4,
+      "n_categorical_vars": 6,
+      "n_numerical_vars": 2,
+      "n_samples": 155,
+      "n_features": 8
+    }
+  },
+  "dataset_2189_lowbwt": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 7,
+      "n_numerical_vars": 2,
+      "n_samples": 189,
+      "n_features": 9
+    }
+  },
+  "dataset_lisbon_house": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 7,
+      "n_numerical_vars": 9,
+      "n_samples": 246,
+      "n_features": 16
+    }
+  },
+  "file639340bd9ca9": {
+    "dimensionality": "Low-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "regression",
+    "balance_status": "N/A",
+    "details": {
+      "n_classes": "N/A",
+      "n_categorical_vars": 4,
+      "n_numerical_vars": 5,
+      "n_samples": 166821,
+      "n_features": 9
+    }
+  },
+  "online_gaming_behavior_dataset": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 3,
+      "n_categorical_vars": 4,
+      "n_numerical_vars": 8,
+      "n_samples": 40034,
+      "n_features": 12
+    }
+  },
+  "speeddating": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Mixed-Type",
+    "task": "binary_classification",
+    "balance_status": "Imbalanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 63,
+      "n_numerical_vars": 59,
+      "n_samples": 8378,
+      "n_features": 122
+    }
+  },
+  "dermatology_database_1": {
+    "dimensionality": "Mid-Dimensional",
+    "variable_types": "Primarily Numerical",
+    "task": "multiclass_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 6,
+      "n_categorical_vars": 1,
+      "n_numerical_vars": 33,
+      "n_samples": 366,
+      "n_features": 34
+    }
+  },
+  "dataset_game": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 116,
+      "n_numerical_vars": 0,
+      "n_samples": 102944,
+      "n_features": 116
+    }
+  },
+  "PHPvdLHkl": {
+    "dimensionality": "High-Dimensional",
+    "variable_types": "Primarily Categorical",
+    "task": "binary_classification",
+    "balance_status": "Balanced",
+    "details": {
+      "n_classes": 2,
+      "n_categorical_vars": 229,
+      "n_numerical_vars": 0,
+      "n_samples": 64,
+      "n_features": 229
+    }
+  }
+}

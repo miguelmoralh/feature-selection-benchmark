@@ -1,0 +1,31 @@
+{
+    "dimensionality": {
+        "high": 16,
+        "mid": 17,
+        "low": 17
+    },
+    "task_types": {
+        "regression": 17,
+        "binary_classification": 16,
+        "multiclass_classification": 17
+    },
+    "data_types": {
+        "primarily_numerical": 50,
+        "primarily_categorical": 0,
+        "mixed": 0
+    },
+    "class_balance": {
+        "balanced": 16,
+        "imbalanced": 17
+    },
+    "feature_stats": {
+        "avg_features_per_dataset": 57.82,
+        "avg_informative_features": 15.64,
+        "avg_interactive_features": 2.5,
+        "avg_redundant_features": 11.2,
+        "avg_noise_features": 28.48,
+        "avg_numerical_features": 57.82,
+        "avg_categorical_features": 0.0,
+        "avg_nonlinear_features": 4.28
+    }
+}
