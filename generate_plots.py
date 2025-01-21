@@ -17,9 +17,9 @@ METHOD_ORDER = {
     'relief': 7,
     
     # Embedded methods (8-10)
-    'cb_fimportances': 8,
-    'permutation_importance': 9,
-    'rf_fimportances': 10,
+    'rf_fimportances': 8,
+    'cb_fimportances': 9,
+    'permutation_importance': 10,
     
     # Wrapper methods (11-14)
     'seq_backward': 11,
@@ -33,9 +33,9 @@ METHOD_ORDER = {
     
     # Hybrid methods (17-20)
     'hybrid_nmi_sfs': 17,
-    'hybrid_shap_sfs': 18,
+    'hybrid_fcbf_sfs': 18,
     'hybrid_rfe': 19,
-    'hybrid_fcbf_sfs': 20
+    'hybrid_shap_sfs': 20
 }
 
 METHOD_NAMES = {
@@ -49,9 +49,9 @@ METHOD_NAMES = {
     'relief': 'Relief',
     
     # Embedded methods
-    'cb_fimportances': 'CB-I',
-    'permutation_importance': 'Perm-I',
-    'rf_fimportances': 'RF-I',
+    'rf_fimportances': 'RF-FI',
+    'cb_fimportances': 'CB-FI',
+    'permutation_importance': 'Perm-FI',
     
     # Wrapper methods
     'seq_backward': 'SBS',
@@ -64,10 +64,11 @@ METHOD_NAMES = {
     'boruta': 'Boruta',
     
     # Hybrid methods
-    'hybrid_nmi_sfs': 'MI+SFS',
-    'hybrid_shap_sfs': 'SHAP+SFS',
+    'hybrid_nmi_sfs': 'MI - SFS',
+    'hybrid_fcbf_sfs': 'FCBF - SFS',
     'hybrid_rfe': 'RFE',
-    'hybrid_fcbf_sfs': 'FCBF+SFS'
+    'hybrid_shap_sfs': 'SHAP - SFS',
+
 }
 
 # Keep existing color schemes and family mappings
@@ -90,9 +91,9 @@ METHOD_FAMILIES = {
     'relief': 'filter',
     
     # Embedded methods
+    'rf_fimportances': 'embedded',
     'cb_fimportances': 'embedded',
     'permutation_importance': 'embedded',
-    'rf_fimportances': 'embedded',
     
     # Wrapper methods
     'seq_backward': 'wrapper',
@@ -106,9 +107,10 @@ METHOD_FAMILIES = {
     
     # Hybrid methods
     'hybrid_nmi_sfs': 'hybrid',
-    'hybrid_shap_sfs': 'hybrid',
+    'hybrid_fcbf_sfs': 'hybrid',
     'hybrid_rfe': 'hybrid',
-    'hybrid_fcbf_sfs': 'hybrid'
+    'hybrid_shap_sfs': 'hybrid'
+ 
 }
 
 FAMILY_ORDER = ['filter', 'embedded', 'wrapper', 'advanced', 'hybrid']
