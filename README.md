@@ -48,49 +48,49 @@ Implementation of various feature selection techniques:
 
 #### Filter Methods
 - **Bivariate**
- - `information_value.py`: Implements Weight of Evidence and Information Value based selection
- - `correlation.py`: Uses correlation coefficients for feature selection
- - `norm_mutual_info.py`: Implements Normalized Mutual Information selection
- - `chi_squared.py`: Chi-squared statistical test based selection
+  - `information_value.py`: Implements Weight of Evidence and Information Value based selection
+  - `correlation.py`: Uses correlation coefficients for feature selection
+  - `norm_mutual_info.py`: Implements Normalized Mutual Information selection
+  - `chi_squared.py`: Chi-squared statistical test based selection
  
 - **Multivariate**
- - `fcbf.py`: Fast Correlation-Based Filter selection 
- - `mrmr.py`: Minimum Redundancy Maximum Relevance algorithm selection
- - `relief_algorithms.py`: Relief family algorithms selection
+  - `fcbf.py`: Fast Correlation-Based Filter selection 
+  - `mrmr.py`: Minimum Redundancy Maximum Relevance algorithm selection
+  - `relief_algorithms.py`: Relief family algorithms selection
 
 #### Embedded Methods
 - **Importance**
- - `rf_feature_importances.py`: Random Forest importance-based selection
- - `cb_feature_importances.py`: CatBoost importance-based selection
- - `permutation_feature_importance.py`: Permutation importance selection implementation
+  - `rf_feature_importances.py`: Random Forest importance-based selection
+  - `cb_feature_importances.py`: CatBoost importance-based selection
+  - `permutation_feature_importance.py`: Permutation importance selection implementation
 
 #### Wrapper Methods
-- **Backward Elimination**
- - `sequential_backward_selection.py`: Sequential Backward Selection algorithm
-- **Forward Selection**
- - `sequential_forward_selection.py`: Sequential Forward Selection algorithm
-- **Bidirectional**
- - `sequential_forward_floating_selection.py`: Sequential Forward Floating Selection implementation
- - `sequential_backward_floating_selection.py`: Sequential Backward Floating Selection implementation
+ - **Backward Elimination**
+   - `sequential_backward_selection.py`: Sequential Backward Selection algorithm
+ - **Forward Selection**
+   - `sequential_forward_selection.py`: Sequential Forward Selection algorithm
+ - **Bidirectional**
+   - `sequential_forward_floating_selection.py`: Sequential Forward Floating Selection implementation
+   - `sequential_backward_floating_selection.py`: Sequential Backward Floating Selection implementation
 
 #### Advanced Methods
 - `boruta.py`: Boruta algorithm implementation
 - `shap.py`: SHAP-based feature selection
 
 #### Hybrid Methods
-- **Advanced Wrapper**
- - `shap_sfs.py`: SHAP combined with Sequential Forward Selection
-- **Embedded Wrapper**
- - `recursive_feature_elimination.py`: Recursive Feature Elimination selection implementation
-- **Filter Wrapper**
- - `nmi_sfs.py`: Mutual Information with Sequential Forward Selection
- - `fcbf_sfs.py`: FCBF with Sequential Forward Selection
+ - **Advanced-Wrapper**
+   - `shap_sfs.py`: SHAP combined with Sequential Forward Selection
+ - **Embedded-Wrapper**
+   - `recursive_feature_elimination.py`: Recursive Feature Elimination selection implementation
+ - **Filter-Wrapper**
+   - `nmi_sfs.py`: Mutual Information with Sequential Forward Selection
+   - `fcbf_sfs.py`: FCBF with Sequential Forward Selection
 
 ### synthetic_data_generator/
 - **Config**
- - `dataset_config.py`: Configuration for synthetic dataset generation
- - `interactions.py`: Defines feature interaction types
- - `transforms.py`: Implements feature transformations
+  - `dataset_config.py`: Configuration for synthetic dataset generation
+  - `interactions.py`: Defines feature interaction types
+  - `transforms.py`: Implements feature transformations
 - `base_random_generator.py`: Base feature generation functionality
 - `feature_importances.py`: Feature importance calculation
 - `fs_configs.py`: Feature selection configurations
@@ -120,5 +120,19 @@ The benchmark results are stored in the `logs` directory:
 - `logs/results/`: Processed results and analysis
 - `logs/plots/`: Generated visualizations
 
+## Citation
 
+If you use this work in your research, please cite:
 
+```bibtex
+@article{moral2025benchmark,
+ title={Benchmark of feature selection techniques for tabular data},
+ author={Moral, Miguel},
+ journal={Universitat Autònoma de Barcelona},
+ year={2025}
+}
+```
+
+## Contact
+Miguel Moral - miguel.moral@uab.cat
+Project Link: https://github.com/miguelmoralh/feature_selection_benchmark
