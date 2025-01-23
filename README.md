@@ -1,6 +1,6 @@
 # Feature Selection Benchmark
 
-A comprehensive benchmark study of feature selection techniques for supervised machine learning on tabular data, focusing on tree-based predictive models.
+A comprehensive benchmark study of feature selection techniques for supervised machine learning predictive models on tabular data.
 
 ## Overview
 
