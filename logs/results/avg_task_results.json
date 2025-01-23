@@ -2,348 +2,348 @@
     "real_world": {
         "regression": {
             "chi_squared": {
+                "average_percentage_score_error": 2.8306569709217135,
                 "mean_selected_features": 50.357142857142854,
-                "mean_model_scores_ranking": 6.428571428571429,
                 "mean_execution_time_minutes": 0.00716080523672558,
                 "datasets_evaluated": 14
             },
             "mutual_info": {
+                "average_percentage_score_error": 10.790358690195793,
                 "mean_selected_features": 32.92857142857143,
-                "mean_model_scores_ranking": 9.428571428571429,
                 "mean_execution_time_minutes": 0.007952091523579188,
                 "datasets_evaluated": 14
             },
             "mrmr": {
+                "average_percentage_score_error": 32.9464957218181,
                 "mean_selected_features": 7.5,
-                "mean_model_scores_ranking": 13.785714285714286,
                 "mean_execution_time_minutes": 0.03556705599739438,
                 "datasets_evaluated": 14
             },
             "fcbf": {
+                "average_percentage_score_error": 35.72865109944869,
                 "mean_selected_features": 3.4285714285714284,
-                "mean_model_scores_ranking": 14.142857142857142,
                 "mean_execution_time_minutes": 0.016266493286405292,
                 "datasets_evaluated": 14
             },
             "relief": {
+                "average_percentage_score_error": 70.41803177117198,
                 "mean_selected_features": 22.857142857142858,
-                "mean_model_scores_ranking": 15.357142857142858,
                 "mean_execution_time_minutes": 2.9310843972932727,
                 "datasets_evaluated": 14
             },
             "rf_fimportances": {
+                "average_percentage_score_error": 5.802669513059802,
                 "mean_selected_features": 12.714285714285714,
-                "mean_model_scores_ranking": 8.714285714285714,
                 "mean_execution_time_minutes": 0.01897942821184794,
                 "datasets_evaluated": 14
             },
             "cb_fimportances": {
+                "average_percentage_score_error": 8.34386224028281,
                 "mean_selected_features": 10.214285714285714,
-                "mean_model_scores_ranking": 7.928571428571429,
                 "mean_execution_time_minutes": 0.08198283172789074,
                 "datasets_evaluated": 14
             },
             "permutation_importance": {
+                "average_percentage_score_error": 10.584063056956294,
                 "mean_selected_features": 9.571428571428571,
-                "mean_model_scores_ranking": 7.857142857142857,
                 "mean_execution_time_minutes": 4.021261808418092,
                 "datasets_evaluated": 14
             },
             "shap": {
+                "average_percentage_score_error": 5.325872209162019,
                 "mean_selected_features": 12.214285714285714,
-                "mean_model_scores_ranking": 6.0,
                 "mean_execution_time_minutes": 0.460538041023981,
                 "datasets_evaluated": 14
             },
             "boruta": {
+                "average_percentage_score_error": 3.186386471920721,
                 "mean_selected_features": 21.5,
-                "mean_model_scores_ranking": 5.714285714285714,
                 "mean_execution_time_minutes": 12.004831157128017,
                 "datasets_evaluated": 14
             },
             "seq_backward": {
+                "average_percentage_score_error": 3.2054499938289744,
                 "mean_selected_features": 11.6,
-                "mean_model_scores_ranking": 5.0,
                 "mean_execution_time_minutes": 4.474953700701396,
                 "datasets_evaluated": 10
             },
             "seq_forward": {
+                "average_percentage_score_error": 4.4357681210693976,
                 "mean_selected_features": 6.8,
-                "mean_model_scores_ranking": 7.8,
                 "mean_execution_time_minutes": 5.122106374502182,
                 "datasets_evaluated": 10
             },
             "seq_forward_floating": {
+                "average_percentage_score_error": 3.2915877006983356,
                 "mean_selected_features": 6.4,
-                "mean_model_scores_ranking": 7.2,
                 "mean_execution_time_minutes": 6.292761968374252,
                 "datasets_evaluated": 10
             },
             "hybrid_nmi_sfs": {
+                "average_percentage_score_error": 3.923604495513712,
                 "mean_selected_features": 9.571428571428571,
-                "mean_model_scores_ranking": 7.142857142857143,
                 "mean_execution_time_minutes": 67.06531681304885,
                 "datasets_evaluated": 14
             },
             "hybrid_fcbf_sfs": {
+                "average_percentage_score_error": 29.73231877561409,
                 "mean_selected_features": 3.7857142857142856,
-                "mean_model_scores_ranking": 14.142857142857142,
                 "mean_execution_time_minutes": 0.7213365109193893,
                 "datasets_evaluated": 14
             },
             "hybrid_shap_sfs": {
+                "average_percentage_score_error": 4.680388556323955,
                 "mean_selected_features": 8.285714285714286,
-                "mean_model_scores_ranking": 8.142857142857142,
                 "mean_execution_time_minutes": 20.17167076525234,
                 "datasets_evaluated": 14
             },
             "hybrid_rfe": {
+                "average_percentage_score_error": 3.3947781639904107,
                 "mean_selected_features": 11.0,
-                "mean_model_scores_ranking": 6.642857142857143,
                 "mean_execution_time_minutes": 13.544011739322118,
                 "datasets_evaluated": 14
             },
             "correlation": {
+                "average_percentage_score_error": 9.15541674035745,
                 "mean_selected_features": 33.714285714285715,
-                "mean_model_scores_ranking": 9.285714285714286,
                 "mean_execution_time_minutes": 0.007566241139457339,
                 "datasets_evaluated": 14
             },
             "seq_backward_floating": {
+                "average_percentage_score_error": 3.2054499938289744,
                 "mean_selected_features": 11.6,
-                "mean_model_scores_ranking": 5.0,
                 "mean_execution_time_minutes": 4.0601622521877285,
                 "datasets_evaluated": 10
             }
         },
         "binary_classification": {
             "chi_squared": {
+                "average_percentage_score_error": 7.2792003002745025,
                 "mean_selected_features": 39.142857142857146,
-                "mean_model_scores_ranking": 7.238095238095238,
                 "mean_execution_time_minutes": 0.0067674888504876025,
                 "datasets_evaluated": 21
             },
             "mutual_info": {
+                "average_percentage_score_error": 13.68151175122936,
                 "mean_selected_features": 45.61904761904762,
-                "mean_model_scores_ranking": 10.285714285714286,
                 "mean_execution_time_minutes": 0.0038222498363918726,
                 "datasets_evaluated": 21
             },
             "mrmr": {
+                "average_percentage_score_error": 21.684022380334984,
                 "mean_selected_features": 13.238095238095237,
-                "mean_model_scores_ranking": 15.619047619047619,
                 "mean_execution_time_minutes": 0.045298574462769525,
                 "datasets_evaluated": 21
             },
             "fcbf": {
+                "average_percentage_score_error": 21.852401445404233,
                 "mean_selected_features": 4.190476190476191,
-                "mean_model_scores_ranking": 14.476190476190476,
                 "mean_execution_time_minutes": 0.02466985233246334,
                 "datasets_evaluated": 21
             },
             "relief": {
+                "average_percentage_score_error": 25.932248590888754,
                 "mean_selected_features": 18.61904761904762,
-                "mean_model_scores_ranking": 16.428571428571427,
                 "mean_execution_time_minutes": 2.7149822524615694,
                 "datasets_evaluated": 21
             },
             "rf_fimportances": {
+                "average_percentage_score_error": 4.553635222850594,
                 "mean_selected_features": 14.142857142857142,
-                "mean_model_scores_ranking": 8.047619047619047,
                 "mean_execution_time_minutes": 0.011177470381297763,
                 "datasets_evaluated": 21
             },
             "cb_fimportances": {
+                "average_percentage_score_error": 5.647024560264505,
                 "mean_selected_features": 13.523809523809524,
-                "mean_model_scores_ranking": 6.476190476190476,
                 "mean_execution_time_minutes": 0.11041680574417115,
                 "datasets_evaluated": 21
             },
             "permutation_importance": {
+                "average_percentage_score_error": 7.0114070078012345,
                 "mean_selected_features": 12.476190476190476,
-                "mean_model_scores_ranking": 6.904761904761905,
                 "mean_execution_time_minutes": 2.0320344482149397,
                 "datasets_evaluated": 21
             },
             "shap": {
+                "average_percentage_score_error": 6.084692170575913,
                 "mean_selected_features": 14.047619047619047,
-                "mean_model_scores_ranking": 6.0476190476190474,
                 "mean_execution_time_minutes": 0.5123198760880364,
                 "datasets_evaluated": 21
             },
             "boruta": {
+                "average_percentage_score_error": 10.05533108500193,
                 "mean_selected_features": 13.0,
-                "mean_model_scores_ranking": 8.095238095238095,
                 "mean_execution_time_minutes": 16.39373724687667,
                 "datasets_evaluated": 21
             },
             "seq_backward": {
+                "average_percentage_score_error": 6.2025568964918225,
                 "mean_selected_features": 18.5,
-                "mean_model_scores_ranking": 6.25,
                 "mean_execution_time_minutes": 23.039525254319113,
                 "datasets_evaluated": 16
             },
             "seq_forward": {
+                "average_percentage_score_error": 11.085015413891366,
                 "mean_selected_features": 6.0625,
-                "mean_model_scores_ranking": 8.3125,
                 "mean_execution_time_minutes": 10.588020989547173,
                 "datasets_evaluated": 16
             },
             "seq_forward_floating": {
+                "average_percentage_score_error": 11.085015413891366,
                 "mean_selected_features": 6.0625,
-                "mean_model_scores_ranking": 8.3125,
                 "mean_execution_time_minutes": 13.2658567301929,
                 "datasets_evaluated": 16
             },
             "hybrid_nmi_sfs": {
+                "average_percentage_score_error": 8.671344959797713,
                 "mean_selected_features": 6.9523809523809526,
-                "mean_model_scores_ranking": 8.428571428571429,
                 "mean_execution_time_minutes": 22.2166328539924,
                 "datasets_evaluated": 21
             },
             "hybrid_fcbf_sfs": {
+                "average_percentage_score_error": 16.738876475612905,
                 "mean_selected_features": 4.095238095238095,
-                "mean_model_scores_ranking": 14.428571428571429,
                 "mean_execution_time_minutes": 2.0466173643157597,
                 "datasets_evaluated": 21
             },
             "hybrid_shap_sfs": {
+                "average_percentage_score_error": 9.541681506909969,
                 "mean_selected_features": 7.333333333333333,
-                "mean_model_scores_ranking": 8.714285714285714,
                 "mean_execution_time_minutes": 19.880285640557606,
                 "datasets_evaluated": 21
             },
             "hybrid_rfe": {
+                "average_percentage_score_error": 7.850451343020965,
                 "mean_selected_features": 10.238095238095237,
-                "mean_model_scores_ranking": 11.285714285714286,
                 "mean_execution_time_minutes": 17.696714581194378,
                 "datasets_evaluated": 21
             },
             "information_value": {
+                "average_percentage_score_error": 9.290798964249154,
                 "mean_selected_features": 53.857142857142854,
-                "mean_model_scores_ranking": 4.904761904761905,
                 "mean_execution_time_minutes": 0.007954988403925821,
                 "datasets_evaluated": 21
             },
             "correlation": {
+                "average_percentage_score_error": 13.040156927494516,
                 "mean_selected_features": 42.095238095238095,
-                "mean_model_scores_ranking": 8.904761904761905,
                 "mean_execution_time_minutes": 0.0015919289891681975,
                 "datasets_evaluated": 21
             },
             "seq_backward_floating": {
+                "average_percentage_score_error": 6.2025568964918225,
                 "mean_selected_features": 18.5,
-                "mean_model_scores_ranking": 6.25,
                 "mean_execution_time_minutes": 29.041133418430885,
                 "datasets_evaluated": 16
             }
         },
         "multiclass_classification": {
             "chi_squared": {
+                "average_percentage_score_error": 1.7669002201807884,
                 "mean_selected_features": 88.06666666666666,
-                "mean_model_scores_ranking": 4.0,
                 "mean_execution_time_minutes": 0.006955307324727376,
                 "datasets_evaluated": 15
             },
             "mutual_info": {
+                "average_percentage_score_error": 2.0257555609109787,
                 "mean_selected_features": 80.46666666666667,
-                "mean_model_scores_ranking": 5.266666666666667,
                 "mean_execution_time_minutes": 0.003428816530439589,
                 "datasets_evaluated": 15
             },
             "mrmr": {
+                "average_percentage_score_error": 10.241900792089586,
                 "mean_selected_features": 56.666666666666664,
-                "mean_model_scores_ranking": 9.533333333333333,
                 "mean_execution_time_minutes": 0.4292520067426893,
                 "datasets_evaluated": 15
             },
             "fcbf": {
+                "average_percentage_score_error": 8.985797205605365,
                 "mean_selected_features": 9.333333333333334,
-                "mean_model_scores_ranking": 12.266666666666667,
                 "mean_execution_time_minutes": 0.04730259471469455,
                 "datasets_evaluated": 15
             },
             "relief": {
+                "average_percentage_score_error": 15.482159568971376,
                 "mean_selected_features": 38.2,
-                "mean_model_scores_ranking": 13.533333333333333,
                 "mean_execution_time_minutes": 0.19351736307144166,
                 "datasets_evaluated": 15
             },
             "rf_fimportances": {
+                "average_percentage_score_error": 3.909493917315047,
                 "mean_selected_features": 14.8,
-                "mean_model_scores_ranking": 9.2,
                 "mean_execution_time_minutes": 0.01162985881169637,
                 "datasets_evaluated": 15
             },
             "cb_fimportances": {
+                "average_percentage_score_error": 1.4452280605720236,
                 "mean_selected_features": 12.0,
-                "mean_model_scores_ranking": 6.133333333333334,
                 "mean_execution_time_minutes": 0.04504626486036512,
                 "datasets_evaluated": 15
             },
             "permutation_importance": {
+                "average_percentage_score_error": 1.480888664677139,
                 "mean_selected_features": 9.933333333333334,
-                "mean_model_scores_ranking": 8.266666666666667,
                 "mean_execution_time_minutes": 0.9930173937479655,
                 "datasets_evaluated": 15
             },
             "shap": {
+                "average_percentage_score_error": 2.1741967813527245,
                 "mean_selected_features": 14.533333333333333,
-                "mean_model_scores_ranking": 6.066666666666666,
                 "mean_execution_time_minutes": 0.3744290884335836,
                 "datasets_evaluated": 15
             },
             "boruta": {
+                "average_percentage_score_error": 2.6021518788193707,
                 "mean_selected_features": 20.4,
-                "mean_model_scores_ranking": 6.0,
                 "mean_execution_time_minutes": 5.3088376874393886,
                 "datasets_evaluated": 15
             },
             "seq_backward": {
+                "average_percentage_score_error": 2.564232598394805,
                 "mean_selected_features": 8.272727272727273,
-                "mean_model_scores_ranking": 5.090909090909091,
                 "mean_execution_time_minutes": 12.678697334636341,
                 "datasets_evaluated": 11
             },
             "seq_forward": {
+                "average_percentage_score_error": 3.604106588267497,
                 "mean_selected_features": 8.0,
-                "mean_model_scores_ranking": 5.636363636363637,
                 "mean_execution_time_minutes": 8.085931955323074,
                 "datasets_evaluated": 11
             },
             "seq_forward_floating": {
+                "average_percentage_score_error": 3.524243521730165,
                 "mean_selected_features": 7.363636363636363,
-                "mean_model_scores_ranking": 5.181818181818182,
                 "mean_execution_time_minutes": 9.988230846506177,
                 "datasets_evaluated": 11
             },
             "hybrid_nmi_sfs": {
+                "average_percentage_score_error": 2.830892766151663,
                 "mean_selected_features": 8.0,
-                "mean_model_scores_ranking": 6.866666666666666,
                 "mean_execution_time_minutes": 50.95995459953944,
                 "datasets_evaluated": 15
             },
             "hybrid_fcbf_sfs": {
+                "average_percentage_score_error": 9.057257087973277,
                 "mean_selected_features": 5.533333333333333,
-                "mean_model_scores_ranking": 12.6,
                 "mean_execution_time_minutes": 5.480848185221354,
                 "datasets_evaluated": 15
             },
             "hybrid_shap_sfs": {
+                "average_percentage_score_error": 2.9633511786427693,
                 "mean_selected_features": 7.466666666666667,
-                "mean_model_scores_ranking": 6.6,
                 "mean_execution_time_minutes": 10.661080852614509,
                 "datasets_evaluated": 15
             },
             "hybrid_rfe": {
+                "average_percentage_score_error": 2.96429962568915,
                 "mean_selected_features": 6.266666666666667,
-                "mean_model_scores_ranking": 10.333333333333334,
                 "mean_execution_time_minutes": 18.447182829909856,
                 "datasets_evaluated": 15
             },
             "seq_backward_floating": {
+                "average_percentage_score_error": 2.56735744123588,
                 "mean_selected_features": 8.636363636363637,
-                "mean_model_scores_ranking": 5.090909090909091,
                 "mean_execution_time_minutes": 15.853742694854736,
                 "datasets_evaluated": 11
             }

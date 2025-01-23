@@ -125,10 +125,10 @@ os.makedirs('logs/plots/tasks', exist_ok=True)
 with open('logs/results/avg_metrics_by_method.json', 'r') as f:
     overall_results = json.load(f)
     
-with open('logs/results/datasets_categories/avg_dimensionality_results.json', 'r') as f:
+with open('logs/results/avg_dimensionality_results.json', 'r') as f:
     dimensionality_results = json.load(f)
     
-with open('logs/results/datasets_categories/avg_task_results.json', 'r') as f:
+with open('logs/results/avg_task_results.json', 'r') as f:
     task_results = json.load(f)
 
 # Create overall plots
