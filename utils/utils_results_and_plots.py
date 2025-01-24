@@ -453,8 +453,8 @@ def create_real_world_plot(results, METHOD_ORDER, FAMILY_ORDER, METHOD_FAMILIES,
              borderpad=1,
              labelspacing=0.5)
     
-    ax.set_xlabel('Average Percentage Score Error\n(lower is better)', fontsize=16)
-    ax.set_ylabel('Average number of selected features', fontsize=16)
+    ax.set_xlabel('Average Percentage Score Error\n(lower is better)', fontsize=15)
+    ax.set_ylabel('Average number of selected features', fontsize=15)
     ax.set_title(f'Average results in real-world datasets{title_suffix}', pad=20, fontsize=20)
     ax.grid(True, linestyle='--', alpha=0.7)
     
@@ -560,8 +560,8 @@ def create_synthetic_plot(results, METHOD_ORDER, FAMILY_ORDER, METHOD_FAMILIES, 
              borderpad=1,
              labelspacing=0.5)
     
-    ax.set_xlabel('Average Weighted Accuracy ranking\n(lower is better)', fontsize=16)  # Increase fontsize
-    ax.set_ylabel('Average execution time (minutes)', fontsize=16)  # Increase fontsize
+    ax.set_xlabel('Average Weighted Accuracy Ranking\n(lower is better)', fontsize=15)  # Increase fontsize
+    ax.set_ylabel('Average execution time (minutes)', fontsize=15)  # Increase fontsize
     ax.set_title(f'Average results in synthetic datasets{title_suffix}', pad=20, fontsize=20)  # Increase fontsize
     ax.grid(True, linestyle='--', alpha=0.7)
     ax.set_xlim(0, 20)
