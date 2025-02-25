@@ -121,7 +121,7 @@ The benchmark results are stored in the `logs` directory:
 - `logs/plots/`: Generated visualizations
   
 ## Paper
-- 'miguel_moral_tfg.pdf': The written paper of the study
+- 'feature_selection_benchmark.pdf': The written paper of the study
 ## Citation
 
 If you use this work in your research, please cite:
