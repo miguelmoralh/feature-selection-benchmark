@@ -136,5 +136,5 @@ If you use this work in your research, please cite:
 ```
 
 ## Contact
-Miguel Moral - miguel.moral@autonoma.cat
+Miguel Moral - miguelmoralhernandez@gmail.com
 Project Link: https://github.com/miguelmoralh/feature_selection_benchmark
